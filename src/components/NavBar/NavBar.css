@@ -1,0 +1,54 @@
+/* estilos navbar */
+.img-nav {
+    width: 100px;
+    height: 70px;
+    padding-bottom: 15px;
+  }
+  
+  .carrito-nav {
+    width: 25px;
+    height: 25px;
+    align-items: end;
+    margin: 10px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: rgb(39, 58, 46);
+  }
+  
+  .nav-color {
+    background-color: rgba(132, 177, 149, 0.5);
+    padding: 0;
+  }
+  
+  #basic-nav-dropdown {
+    font-size: 18px;
+    color:  rgb(39, 58, 46);
+  }
+  
+  .drop-item {
+    font-size: 18px;
+    color: rgb(39, 58, 46) !important;
+  }
+  
+  .drop-item:hover {
+    background-color:  rgb(217, 179, 196);
+  }
+  
+  .boton-buscar {
+    background-color:  rgb(217, 179, 196);
+    color: black;
+    border: none;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  
+  .boton-buscar:hover {
+    color: white;
+    background-color:  rgb(131, 24, 68);
+  }
+  
+  .barra{
+    padding-right: 0;
+  }

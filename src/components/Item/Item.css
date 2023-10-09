@@ -1,0 +1,61 @@
+/*Estilos Items*/
+
+.img-catalogo {
+    height: 350px;
+  }
+
+  .grupo-items {
+    margin: 10px;
+    background-color:  rgba(17, 102, 55, 0.103);
+    
+  }
+
+  .grupo-lista {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (max-width: 768px){
+    .grupo-lista {
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 100px;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .grupo-lista {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+ 
+
+  @media screen and (min-width: 1100px){
+    .grupo-lista {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+ 
+  @media screen and (min-width: 1400px){
+    .grupo-lista {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .boton-detalle {
+    background-color:  rgb(217, 179, 196);
+    color: black;
+    border: none;
+    margin-right: 10px;
+    margin-left: 0;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  
+  .boton-detalle:hover {
+    color: white;
+    background-color:  rgb(131, 24, 68);
+  }
+  

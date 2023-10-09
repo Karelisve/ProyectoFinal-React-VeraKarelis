@@ -1,0 +1,8 @@
+/*Estilos ItemListContainer*/
+  
+.greeting {
+    display: flex;
+    justify-content: center;
+    color: rgb(39, 58, 46);
+    padding: 10px;
+  }
