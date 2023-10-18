@@ -27,7 +27,7 @@ const CartItem = ({ id, nombre, precio, quantity, img }) => {
               Eliminar
             </Button>
           ) : (
-            <Button variant="primary" onClick={addToCart}>
+            <Button className='boton-cart' onClick={addToCart}>
               Agregar al carrito
             </Button>
           )}
