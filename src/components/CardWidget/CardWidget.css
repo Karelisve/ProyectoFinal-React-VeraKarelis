@@ -1,0 +1,27 @@
+img {
+    width: 19px;
+    height: 19px;
+    margin: 0 9px 5px;
+}
+
+.quantity {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.carrito {
+    background-color:  rgb(217, 179, 196);
+    color: black;
+    border: none;
+    margin-left: 5px;
+    padding: 5px 8px;
+    border-radius: 8px;
+  }
+  
+  .carrito:hover {
+    color: white;
+    background-color:  rgb(182, 110, 140);
+  }
+  

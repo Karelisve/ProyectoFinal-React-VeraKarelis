@@ -2,6 +2,8 @@
 
 .img-catalogo {
     height: 350px;
+    width: auto;
+    margin: 0;
   }
 
   .grupo-items {

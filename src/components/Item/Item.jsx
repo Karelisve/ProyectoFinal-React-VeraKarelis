@@ -12,7 +12,7 @@ const Item = ({id, nombre, precio, img, stock}) => {
                     <Card.Body>
                         <Card.Title>{nombre}</Card.Title>
                         <Card.Text>
-                        Precio: {precio}
+                        Precio: {precio}$
                         </Card.Text>
                         <Card.Text>
                         Cantidad Disponible: {stock}
@@ -20,8 +20,7 @@ const Item = ({id, nombre, precio, img, stock}) => {
                         <Link to={`/itemDetail/${id}`} className='boton-detalle'>Ver Detalle</Link>
                     </Card.Body>
                 </Card>
-            </Container> 
-        
+        </Container>     
     )
 }
 

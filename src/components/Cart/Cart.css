@@ -1,14 +1,11 @@
-.detail {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
 
-.boton-agregar {
+.boton-carrito {
+    text-align: center;
+    justify-content: center;
     text-decoration: none;
-    padding: 8px 6px;
+    padding: 10px 20px;
     font-size: 16px;
-    margin: 0 50px;
+    margin: 10px 30px;
     cursor: pointer;
     background-color:  rgb(217, 179, 196);
     color: black;
@@ -16,12 +13,20 @@
     border-radius: 10px;
 }
 
-.boton-agregar:hover {
+.boton-carrito:hover {
     color: white;
     background-color:  rgb(131, 24, 68);
-  }
+}
 
-.separar {
+.titulo-cart {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.titulo-c {
     margin: 10px;
-    margin-bottom: 25px;
+} 
+
+.titulo-bot {
+    margin: 30px;
 }
