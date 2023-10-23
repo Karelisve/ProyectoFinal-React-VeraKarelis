@@ -19,23 +19,25 @@ function NavBar() {
               <NavDropdown.Item  as={NavLink}  to='/categoria/macetas' className='drop-item'>Macetas</NavDropdown.Item>
               <NavDropdown.Item  as={NavLink}  to='/categoria/accesorios' className='drop-item'>Accesorios</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#Contacto" className='nav-link'>Contacto</Nav.Link>
+            <Nav.Link  as={NavLink}  to='/contacto' className='nav-link'>Contacto</Nav.Link>
           </Nav>
-        <Form inline>
-            <Row>
-            <Col className='barra'>
+          <Form inline>
+            <div className="d-flex align-items-center">
+              <Col className='barra'>
                 <Form.Control
-                type="text"
-                placeholder="Macetas color rosa"
-                className=" mr-sm-2"
+                  type="text"
+                  placeholder="Macetas color rosa"
+                  className=" mr-sm-2"
                 />
-            </Col>
-            <Col xs="auto">
+              </Col>
+              <Col xs="auto">
                 <Button type="submit" className='boton-buscar'>Buscar</Button>
-            </Col>
-            </Row>
+              </Col>
+              <Col xs="auto">
+                <CardWidget/>
+              </Col>
+            </div>
         </Form>
-        <CardWidget/>
         </Navbar.Collapse>
       </Container>
     </Navbar>

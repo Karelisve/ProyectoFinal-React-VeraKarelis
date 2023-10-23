@@ -3,6 +3,7 @@ import './Cart.css';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 import CartItem from '../CartItem/CartItem';
+import { Button, Container } from 'react-bootstrap'
 
 
 const Cart = () => {
@@ -22,11 +23,14 @@ const Cart = () => {
 
     return (
         <div>
-
-            { cart.map((p) => <CartItem key={p.id} {...p}/>)}
-            <h2>Total: ${total}</h2>
-            <button onClick={() => clearCart()} className='boton'>Limpiar carrito</button>
-            <Link to='/checkout' className='boton-cart'>Checkout</Link>
+            <Container>
+                { cart.map((p) => <CartItem key={p.id} {...p}/>)}
+                <h2 className='total'>Total: ${total}</h2>
+                <div className='botones-cart-item'>
+                    <Button onClick={() => clearCart()} variant='secondary' className='boton-check'>Limpiar carrito</Button>
+                    <Link to='/checkout'><Button variant="outline-success" className='boton-check'>Checkout</Button></Link>
+                </div>
+            </Container>
         </div>
     )
 

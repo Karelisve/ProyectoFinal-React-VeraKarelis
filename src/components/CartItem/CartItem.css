@@ -15,3 +15,7 @@
     color: white;
     background-color:  rgb(131, 24, 68);
   }
+
+.mb-3 {
+    margin-top: 10px;
+}

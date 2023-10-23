@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Container } from 'react-bootstrap';
 import { CartContext } from '../../context/CartContext';
 import './CartItem.css'
 
@@ -15,6 +15,7 @@ const CartItem = ({ id, nombre, precio, quantity, img }) => {
   };
 
   return (
+    <Container>
     <Card className="mb-3">
       <Card.Body>
         <Card.Title>{nombre}</Card.Title>
@@ -34,6 +35,7 @@ const CartItem = ({ id, nombre, precio, quantity, img }) => {
         </div>
       </Card.Body>
     </Card>
+    </Container>
   );
 }
 

@@ -12,11 +12,19 @@
     border: none;
     border-radius: 10px;
 }
-
 .boton-carrito:hover {
     color: white;
     background-color:  rgb(131, 24, 68);
 }
+
+.boton-check {
+    text-decoration: none;
+    padding: 9px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
 
 .titulo-cart {
     text-align: center;
@@ -29,4 +37,15 @@
 
 .titulo-bot {
     margin: 30px;
+}
+
+.total {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.botones-cart-item {
+    display: flex;
+    justify-content: end;
 }

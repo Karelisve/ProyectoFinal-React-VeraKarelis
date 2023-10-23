@@ -12,16 +12,16 @@ img {
 }
 
 .carrito {
-    background-color:  rgb(217, 179, 196);
     color: black;
-    border: none;
+    border: 2px solid rgb(114, 155, 120);
     margin-left: 5px;
-    padding: 5px 8px;
+    padding: 4px 10px;
     border-radius: 8px;
   }
   
   .carrito:hover {
     color: white;
     background-color:  rgb(182, 110, 140);
+    border: 2px solid rgb(182, 110, 140);
   }
   
