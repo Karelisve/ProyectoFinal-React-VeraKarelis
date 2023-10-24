@@ -2,7 +2,7 @@ import React from 'react';
 import './NavBar.css';
 import CardWidget from "../CardWidget/CardWidget"
 import logo from './assets/logo.png'
-import { Navbar, Nav, NavDropdown, Container, Form, Button, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Container, Form, Button, Col } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 function NavBar() {
