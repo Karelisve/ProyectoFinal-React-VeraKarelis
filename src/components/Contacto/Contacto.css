@@ -1,0 +1,49 @@
+.titulo-contacto {
+    text-align: center;
+    color: rgb(68, 80, 72);
+    margin-top: 30px;
+}
+
+.parrafo-titulo {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+.form-group {
+    max-width: 800px;
+    margin: 15px auto ;
+}
+
+.form-group-button {
+    background-color:  rgb(217, 179, 196);
+    color: black;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    max-width: 100px;
+    width: 100%;
+  }
+
+  .boton-form-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .form-group-button:hover {
+  color: white;
+  background-color:  rgb(131, 24, 68);
+}
+
+.ph {
+    background-color: rgba(224, 235, 229, 0.5);
+}
+
+.ph:focus {
+    border: 1px solid rgb(118, 136, 123);
+    box-shadow: 4px 4px 4px rgba(125, 148, 130, 0.7);
+}

@@ -11,8 +11,6 @@ import Contacto from './components/Contacto/Contacto';
 import Checkout from './components/Checkout/Checkout';
 
 
-
-
 function App() {
   return (
     <div className="App">

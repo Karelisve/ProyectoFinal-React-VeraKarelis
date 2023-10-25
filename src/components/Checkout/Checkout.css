@@ -2,7 +2,7 @@
     margin-top: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
   }
   
   .titulo-checkout {
@@ -47,15 +47,13 @@
     border-radius: 10px;
   }
 
-.boton-submit {
+  .boton-pedido {
     background-color:  rgb(217, 179, 196);
     color: black;
     border: none;
-    margin-top: 15px;
   }
-  
-  .boton-submit:hover {
+
+  .boton-pedido:hover {
     color: white;
     background-color:  rgb(131, 24, 68);
   }
-
