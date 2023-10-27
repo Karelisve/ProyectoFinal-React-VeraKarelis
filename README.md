@@ -1,3 +1,51 @@
+# E-commerce POTUS TIENDA
+
+## Descripción del Proyecto
+
+Este proyecto es un sitio web de e-commerce diseñado para la venta de productos relacionados con la jardinería, como plantas, macetas y artículos de jardinería. La aplicación está desarrollada en React, lo que la hace altamente interactiva y de fácil navegación para los usuarios. Además, he utilizado Firebase como base de datos para gestionar la información de los productos y la autenticación de usuarios.
+
+## Funcionalidades Principales
+
+### Catálogo de Productos
+
+- Los usuarios pueden explorar un amplio catálogo de productos, organizados por categorías. Cada producto se presenta con una imagen, nombre del producto, precio y un botón para ver más información.
+
+### Detalles del Producto
+
+- Al hacer clic en el botón, los usuarios pueden acceder a una vista detallada que muestra información adicional sobre el producto, como descripción, cantidad disponible y un botón para agregar al carrito de compras.
+
+### Carrito de Compras
+
+- La aplicación ofrece un carrito de compras interactivo que permite a los usuarios agregar y eliminar productos. El carrito muestra la cantidad de productos y el costo total de la compra en tiempo real.
+
+### Proceso de Compra
+
+- Los usuarios pueden completar la compra proporcionando su información de envío y datos personales. El proceso de compra es intuitivo y fácil de seguir.
+
+## Tecnologías Utilizadas
+
+El proyecto se ha construido utilizando una variedad de tecnologías:
+
+- **React**: La interfaz de usuario se ha desarrollado utilizando React, una biblioteca de JavaScript que facilita la creación de interfaces de usuario interactivas y responsivas.
+
+- **Firebase**: Firebase se ha empleado como base de datos para almacenar información sobre productos, así como para gestionar la autenticación de usuarios. Esto permite una experiencia de usuario segura y personalizada.
+
+- **React Bootstrap**: Para la interfaz de usuario, se ha utilizado React Bootstrap, una implementación de Bootstrap en React que proporciona componentes reutilizables y una estética profesional sin necesidad de escribir CSS personalizado.
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

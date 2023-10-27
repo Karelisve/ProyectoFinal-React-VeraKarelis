@@ -28,18 +28,6 @@ const ItemListContainer =({greeting}) => {
     },  [categoriaId]);
 
 
-
-    // useEffect(() => {
-    //     const asyncFunc = categoriaId ? getProductsByCategory : getProducts
-
-    //     asyncFunc(categoriaId)
-    //         .then(response => {
-    //             setProducts(response)
-    //         })
-    //         .catch(error => {
-    //             console.log(error)
-    //         })
-    // }, [categoriaId])
     
     return (
         <>

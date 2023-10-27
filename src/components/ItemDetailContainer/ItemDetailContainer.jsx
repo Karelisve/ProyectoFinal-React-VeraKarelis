@@ -22,16 +22,6 @@ const ItemDetailContainer = () => {
 
 
 
-    // useEffect(() => {
-    //     getProductById(itemId)
-    //         .then(response => {
-    //             setProduct(response)
-    //         })
-    //         .catch(error => {
-    //             console.log(error)
-    //         })
-    // }, [itemId])
-
     return(
 
         <div className='item-detail-container'>
