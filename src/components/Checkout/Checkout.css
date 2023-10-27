@@ -86,3 +86,76 @@ background-color:  rgb(131, 24, 68);
 .label {
   font-weight: bold;
 }
+
+
+.vista-order {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(226, 200, 211, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.img-order {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.order-titulo {
+  color: rgb(90, 18, 48);
+  
+}
+
+.order-p {
+  margin-top: 20px;
+  font-size: 25px;
+  color: rgb(114, 43, 73);
+}
+
+.order-subp {
+  margin-top: 10px;
+  font-size: 24px;
+  color: rgb(114, 43, 73);
+}
+
+@media only screen and (max-width:750px) {
+  .order-p, .order-subp {
+      font-size:18px;
+      align-content: center;
+  }
+}
+
+@media only screen and (max-width:950px) {
+  .order-p, .order-subp {
+      font-size:20px;
+      align-content: center;
+  }
+}
+
+
+@media only screen and (max-width:750px) {
+  .order-titulo {
+      font-size:23px;
+      align-content: center;
+  }
+}
+
+@media only screen and (max-width:950px) {
+  .order-titulo {
+      font-size:30px;
+      align-content: center;
+  }
+}
+
+@media only screen and (max-width:750px) {
+  .img-order {
+      width: 350px;
+      height: 250px;
+  }
+}

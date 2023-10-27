@@ -4,6 +4,7 @@ import { Container, Row, Col, Card, Form, Button } from 'react-bootstrap';
 import './Checkout.css'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
 import { db } from '../../servicio/firebase'
+import compra from './assets/compra.jpg'
 
 function Checkout() {
   const { cart, total, clearCart } = useContext(CartContext);
@@ -44,10 +45,21 @@ function Checkout() {
   return (
     <div>
       {orderId !== ''
-        ?<div>
-          <h1>¡Gracias por tu compra en Potus Tienda!</h1>
-          <h2>Su id de seguimiento es: {orderId}</h2>
-        </div>
+        ?<Container className='vista-order'>
+          <div>
+            <h1 className='order-titulo'>¡Gracias por tu compra en Potus Tienda!</h1>
+          </div>
+          <div>
+            <p className='order-p'>Su id de seguimiento es: {orderId}</p>
+          </div>
+          <div>
+            <p className='order-subp'>¡Llegaremos pronto!</p>
+          </div>
+          <div className='img-order'>
+            <img src={compra} alt='tienda potus' className='img-order'/>
+          </div>
+
+        </Container>
         : 
         <Container>
         <Row>
