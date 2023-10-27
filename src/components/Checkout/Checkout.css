@@ -8,6 +8,7 @@
   .titulo-checkout {
     background-color: rgba(132, 177, 149, 0.5);
     color: black;
+    font-weight: bold;
   }
   .detalle-compra-lista {
     list-style: none;
@@ -47,13 +48,41 @@
     border-radius: 10px;
   }
 
-  .boton-pedido {
-    background-color:  rgb(217, 179, 196);
-    color: black;
-    border: none;
-  }
+ 
+.form-grupo {
+  max-width: 800px;
+  margin: 15px auto ;
+}
 
-  .boton-pedido:hover {
-    color: white;
-    background-color:  rgb(131, 24, 68);
-  }
+.form-grupo-button {
+  background-color:  rgb(217, 179, 196);
+  color: black;
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.boton-form-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-grupo-button:hover {
+color: white;
+background-color:  rgb(131, 24, 68);
+}
+
+.placeh {
+  background-color: rgba(224, 235, 229, 0.5);
+}
+
+.placeh:focus {
+  border: 1px solid rgb(118, 136, 123);
+  box-shadow: 4px 4px 4px rgba(125, 148, 130, 0.7);
+}
+
+.label {
+  font-weight: bold;
+}
